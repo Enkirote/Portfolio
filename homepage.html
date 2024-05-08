@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia Project</title>
+    <style>
+        
+       html {
+        background-image: url("image2.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:"Courier New", Courier, monospace;;
+        text-decoration:none;
+        list-style: none; 
+        }
+      
+        .header{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10px;
+            background: rgba(0, 0, 0, 0.751);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           
+        }
+span{
+    color: darkviolet;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:white;
+
+    text-shadow: 0 0 25px darkviolet;
+    text-shadow: 0 0 50px darkviolet;
+    transform:scale(1.1);
+}
+
+.navlist {
+        background: black;
+        box-shadow: none;
+        margin: 0%;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+}
+.container {
+  position: center;
+  text-align: center;
+  color: white;}
+
+  .bottom-left {
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+ul.b {
+  list-style-type: square;
+}
+    </style>
+    </head>
+    <body>
+      
+        <header class="header">
+            
+       <nav class="navbar">
+            <a href="AboutMe.html" class="active">About Me</a>
+            <a href="projects.html" class="active">Project</a>
+            <a href="contactme.html" class="active">Contact</a>
+        </nav> </header>
+        <div class="container">
+          
+        <div class="bottom-left"><H1>Welcome to Everlyn's Website Portfolio</H1>
+          <h2>You can learn more about me in this website </h2>
+</div>
+        </div>
+    </body>
